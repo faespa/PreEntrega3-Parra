@@ -1,0 +1,9 @@
+.fondo {
+    background-image: url('../img/hero.jpg');
+    color:black;
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
