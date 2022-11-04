@@ -31,7 +31,7 @@ formPersona.addEventListener("submit", (e)=> {
     localStorage.setItem("data", JSON.stringify(persona));
     localStorage.setItem("arrayData", JSON.stringify(ArrayPersonas));
 
-    // formPersona.reset();
+    formPersona.reset();
 
     //Redicrection to mainpage
     window.location.href = '../sections/runningCal.html';
